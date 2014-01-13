@@ -7,5 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "t93",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "gulp-util": "~2.2.9",
+    "gulp": "~3.3.0"
+  }
 }
