@@ -1,7 +1,6 @@
 {
   "name": "y",
   "version": "0.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +15,13 @@
     "gulp-coffee": "~1.2.5",
     "coffee-script": "~1.6.3",
     "gulp-rimraf": "0.0.7"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/t93/buildenv-sandbox.git"
+  },
+  "bugs": {
+    "url": "https://github.com/t93/buildenv-sandbox/issues"
+  },
+  "homepage": "https://github.com/t93/buildenv-sandbox"
 }
