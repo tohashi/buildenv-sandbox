@@ -1,5 +1,8 @@
 var gulp = require('gulp');
-var gutil = require('gulp-util');
+var concat = require('gulp-concat');
 
-gulp.task('default', function() {
+gulp.task('concat', function() {
+    gulp.src('./src/*.js')
+        .pipe(concat('all.js'))
+        .pipe(gulp.dest('./dist/'));
 });
